@@ -21,11 +21,11 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findBy(array, findFn) {
-  let result = findFn();
-  if (result === undefined) {
+  let _result = findFn();
+  if (_result === undefined) {
     return null;
   } else {
-    return result;
+    return _result;
   }
 }
 
