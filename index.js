@@ -24,7 +24,7 @@ function findBy(array, findFn) {
   if (findFn === undefined) {
     return null
   } else {
-    findFn();
+    return findFn();
   }
 }
 
