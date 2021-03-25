@@ -21,11 +21,11 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findBy(array, findFn) {
-  array.forEach(findFn);
-    if (_result === undefined) {
+  for (let i = 0; i < array.length; i++) {
+    if (findFn(array[i]) {
       return null;
     } else {
-      return _result;
+      return findFn();
     }
 }
 
