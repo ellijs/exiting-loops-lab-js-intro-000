@@ -27,7 +27,7 @@ function findBy(array, findFn) {
 function findFn(array, index, value) {
   let result = find(array, (value) => array[index] === value);
     if (value === undefined) {
-      return null
+      return null;
     } else {
       return result;
     }
