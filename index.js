@@ -27,5 +27,5 @@ function findBy(array, findFn) {
 }
 
 function findFn(array, index, value) {
-  array.find(array, (value) => array[index] === value);
+  find(array, (value) => array[index] === value);
 }
