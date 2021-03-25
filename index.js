@@ -30,4 +30,5 @@ function findBy(array, findFn) {
 
 function findFn(array, index, value) {
   let result = find(array, (value) => array[index] === value);
+  return result;
 }
