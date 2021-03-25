@@ -25,10 +25,10 @@ function findBy(array, findFn) {
 }
 
 function findFn(array, index, value) {
-  if (value === undefined) {
-    return null
-  } else {
-      let result = find(array, (value) => array[index] === value);
+  let result = find(array, (value) => array[index] === value);
+    if (value === undefined) {
+      return null
+    } else {
       return result;
     }
-}
+  }
