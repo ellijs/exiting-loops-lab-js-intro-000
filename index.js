@@ -28,8 +28,3 @@ function findBy(array, findFn) {
       return array[i];
     }
 }
-
-function findFn(array, index, value) {
-  let result = find(array, (value) => array[index] === value);
-  return result;
-}
