@@ -23,6 +23,8 @@ function keepGoing(array, changeValue, skipValue) {
 function findBy(array, findFn) {
   if (findFn === undefined) {
     return null
+  } else {
+    return value
   }
 }
 
