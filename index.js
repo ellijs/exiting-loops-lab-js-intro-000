@@ -21,12 +21,12 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findBy(array, findFn) {
-  let _result = findFn();
-  if (_result === undefined) {
-    return null;
-  } else {
-    return _result;
-  }
+  array.forEach(findFn);
+    if (_result === undefined) {
+      return null;
+    } else {
+      return _result;
+    }
 }
 
 function findFn(array, index, value) {
