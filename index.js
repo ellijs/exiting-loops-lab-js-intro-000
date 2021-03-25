@@ -19,3 +19,7 @@ function keepGoing(array, changeValue, skipValue) {
   }
   return array;
 }
+
+function findBy(array, findFn) {
+  array.forEach(findFn)
+}
